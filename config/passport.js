@@ -1,4 +1,4 @@
-const { Strategy, JwtStrategy, ExtractJwt } = require("passport-jwt");
+const { Strategy: JwtStrategy, ExtractJwt } = require("passport-jwt");
 const { findUserById } = require("../services/authService");
 
 const config = require("./config");
